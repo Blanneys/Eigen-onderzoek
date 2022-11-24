@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QTest : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
     public GameObject _mainmenu;
     public GameObject _angrymenu;
@@ -13,23 +13,19 @@ public class QTest : MonoBehaviour
     public GameObject _sadmenu;
     public GameObject _surprisedmenu;
 
+    public GameObject _player;
+
     void Start()
     {
-        StartCoroutine(BeginTest());
+        if (_player.activeSelf == true)
+        {
+            StartCoroutine(BeginTest());
+        }
     }
 
     IEnumerator BeginTest()
     {
-        yield return new WaitForSeconds(30);
-        _mainmenu.SetActive(true);
-        _angryButton();
-        
-    }
-
-    public void _angryButton()
-    {
-        _mainmenu.SetActive(false);
-        _angrymenu.SetActive(true);
-
+        yield return new WaitForSeconds(3);
+        gameObject.SetActive(true);
     }
 }
