@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class QTest : MonoBehaviour
 {
     public GameObject _mainmenu;
     public GameObject _angrymenu;
