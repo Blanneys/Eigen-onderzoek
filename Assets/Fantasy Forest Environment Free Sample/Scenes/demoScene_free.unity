@@ -392,6 +392,7 @@ GameObject:
   - component: {fileID: 72306421}
   - component: {fileID: 72306420}
   - component: {fileID: 72306419}
+  - component: {fileID: 72306422}
   m_Layer: 5
   m_Name: Sad
   m_TagString: Untagged
@@ -503,6 +504,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72306417}
   m_CullTransparentMesh: 1
+--- !u!65 &72306422
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72306417}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &107507276
 GameObject:
   m_ObjectHideFlags: 0
@@ -3155,6 +3169,7 @@ GameObject:
   - component: {fileID: 487309660}
   - component: {fileID: 487309659}
   - component: {fileID: 487309658}
+  - component: {fileID: 487309661}
   m_Layer: 5
   m_Name: Disgusted
   m_TagString: Untagged
@@ -3266,6 +3281,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487309656}
   m_CullTransparentMesh: 1
+--- !u!65 &487309661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487309656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &489081112
 GameObject:
   m_ObjectHideFlags: 0
@@ -5349,6 +5377,7 @@ GameObject:
   - component: {fileID: 815979656}
   - component: {fileID: 815979655}
   - component: {fileID: 815979654}
+  - component: {fileID: 815979657}
   m_Layer: 5
   m_Name: Surprised
   m_TagString: Untagged
@@ -5460,6 +5489,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815979652}
   m_CullTransparentMesh: 1
+--- !u!65 &815979657
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815979652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &836016408
 GameObject:
   m_ObjectHideFlags: 0
@@ -6814,6 +6856,7 @@ GameObject:
   - component: {fileID: 1055645455}
   - component: {fileID: 1055645454}
   - component: {fileID: 1055645453}
+  - component: {fileID: 1055645456}
   m_Layer: 5
   m_Name: Fearful
   m_TagString: Untagged
@@ -6925,6 +6968,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055645451}
   m_CullTransparentMesh: 1
+--- !u!65 &1055645456
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055645451}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1072070233
 GameObject:
   m_ObjectHideFlags: 0
@@ -7980,6 +8036,7 @@ GameObject:
   - component: {fileID: 1192385288}
   - component: {fileID: 1192385287}
   - component: {fileID: 1192385286}
+  - component: {fileID: 1192385289}
   m_Layer: 5
   m_Name: Angry
   m_TagString: Untagged
@@ -8103,6 +8160,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192385284}
   m_CullTransparentMesh: 1
+--- !u!65 &1192385289
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192385284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1204575945
 GameObject:
   m_ObjectHideFlags: 0
@@ -9642,6 +9712,7 @@ GameObject:
   - component: {fileID: 1412781369}
   - component: {fileID: 1412781368}
   - component: {fileID: 1412781367}
+  - component: {fileID: 1412781370}
   m_Layer: 5
   m_Name: Bad
   m_TagString: Untagged
@@ -9753,6 +9824,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412781365}
   m_CullTransparentMesh: 1
+--- !u!65 &1412781370
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412781365}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1420130032
 GameObject:
   m_ObjectHideFlags: 0
@@ -10022,6 +10106,7 @@ GameObject:
   - component: {fileID: 1456947856}
   - component: {fileID: 1456947855}
   - component: {fileID: 1456947854}
+  - component: {fileID: 1456947857}
   m_Layer: 5
   m_Name: Happy
   m_TagString: Untagged
@@ -10133,6 +10218,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456947852}
   m_CullTransparentMesh: 1
+--- !u!65 &1456947857
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456947852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1458133030
 GameObject:
   m_ObjectHideFlags: 0
