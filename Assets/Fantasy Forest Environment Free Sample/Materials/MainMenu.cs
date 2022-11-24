@@ -17,7 +17,7 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
-        if (_player.activeSelf == true)
+        if (gameObject.activeSelf == false)
         {
             StartCoroutine(BeginTest());
         }
@@ -25,6 +25,7 @@ public class MainMenu : MonoBehaviour
 
     IEnumerator BeginTest()
     {
+        Debug.Log("hi");
         yield return new WaitForSeconds(3);
         gameObject.SetActive(true);
     }
