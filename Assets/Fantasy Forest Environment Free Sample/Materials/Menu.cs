@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class MainMenu : MonoBehaviour
+public class Menu : MonoBehaviour
 {
     public GameObject _mainmenu;
     public GameObject _angrymenu;
@@ -13,28 +14,22 @@ public class MainMenu : MonoBehaviour
     public GameObject _sadmenu;
     public GameObject _surprisedmenu;
 
-    public GameObject _player;
-
-    public Color[] kleur; 
-    public int kleurCount;
+    public GameObject _menu2;
 
     void Start()
     {
         if (gameObject.activeSelf == true)
         {
-            StartCoroutine(BeginTest());
+            StartCoroutine(Menustart());
         }
     }
-
-    IEnumerator BeginTest()
+    IEnumerator Menustart()
     {
-        Debug.Log("Starttest");
         yield return new WaitForSeconds(3);
-        _mainmenu.SetActive(true);
-        MainMenuButton1();
+        MainMenuButton();
     }
 
-    public void MainMenuButton1()
+    public void MainMenuButton()
     {
         Debug.Log("Start");
         _mainmenu.SetActive(true);
