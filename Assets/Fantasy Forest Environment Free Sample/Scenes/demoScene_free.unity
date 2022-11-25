@@ -465,7 +465,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 72306420}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 206625005}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: SadMenuButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &72306420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1086,6 +1098,7 @@ GameObject:
   - component: {fileID: 206625003}
   - component: {fileID: 206625002}
   - component: {fileID: 206625001}
+  - component: {fileID: 206625005}
   m_Layer: 5
   m_Name: Questionaire
   m_TagString: Untagged
@@ -1144,7 +1157,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 614824349}
-  m_PlaneDistance: 4
+  m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -1175,6 +1188,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &206625005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206624999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d31358744531d47b6a824c1ff661cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainMenus: {fileID: 1289340315}
+  AngryMenu: {fileID: 1393363732}
+  BadMenu: {fileID: 763831314}
+  DisgustedMenu: {fileID: 508419606}
+  FearfulMenu: {fileID: 107507276}
+  HappyMenu: {fileID: 1401338224}
+  SadMenu: {fileID: 909031200}
+  SurprisedMenu: {fileID: 1132403165}
 --- !u!1 &237556093
 GameObject:
   m_ObjectHideFlags: 0
@@ -3221,7 +3254,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 487309659}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 206625005}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: DisgustedMenuButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &487309659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5429,7 +5474,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 815979655}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 206625005}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: SurprisedMenuButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &815979655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6908,7 +6965,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1055645454}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 206625005}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: FearfulMenuButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1055645454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8090,8 +8159,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1289340318}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+      - m_Target: {fileID: 206625005}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: AngryMenuButton
         m_Mode: 1
         m_Arguments:
@@ -8445,8 +8514,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1289340316}
-  - component: {fileID: 1289340317}
-  - component: {fileID: 1289340318}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -8482,50 +8549,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -60}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1289340317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289340315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60928677c6149b14ba82f4384fc77c55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _mainmenu: {fileID: 1289340315}
-  _angrymenu: {fileID: 1393363732}
-  _badmenu: {fileID: 763831314}
-  _disgustedmenu: {fileID: 508419606}
-  _fearfulmenu: {fileID: 107507276}
-  _happymenu: {fileID: 1401338224}
-  _sadmenu: {fileID: 909031200}
-  _surprisedmenu: {fileID: 1132403165}
-  _player: {fileID: 1701297291}
-  kleur: []
-  kleurCount: 0
---- !u!114 &1289340318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289340315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bd543d8bd6d17b4aaece97118259ff8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _mainmenu: {fileID: 1289340315}
-  _angrymenu: {fileID: 1393363732}
-  _badmenu: {fileID: 763831314}
-  _disgustedmenu: {fileID: 508419606}
-  _fearfulmenu: {fileID: 107507276}
-  _happymenu: {fileID: 1401338224}
-  _sadmenu: {fileID: 909031200}
-  _surprisedmenu: {fileID: 1132403165}
-  _menu2: {fileID: 0}
 --- !u!1 &1296641790
 GameObject:
   m_ObjectHideFlags: 0
@@ -9824,7 +9847,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1412781368}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 206625005}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: BadMenuButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1412781368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10218,7 +10253,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1456947855}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 206625005}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: HappyMenuButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1456947855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11692,11 +11739,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693789248}
   m_CullTransparentMesh: 1
---- !u!1 &1701297291 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
-  m_PrefabInstance: {fileID: 578678828}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1742360252
 GameObject:
   m_ObjectHideFlags: 0
