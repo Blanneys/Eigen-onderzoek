@@ -8494,14 +8494,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60928677c6149b14ba82f4384fc77c55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mainmenu: {fileID: 0}
-  _angrymenu: {fileID: 0}
-  _badmenu: {fileID: 0}
-  _disgustedmenu: {fileID: 0}
-  _fearfulmenu: {fileID: 0}
-  _happymenu: {fileID: 0}
-  _sadmenu: {fileID: 0}
-  _surprisedmenu: {fileID: 0}
+  _mainmenu: {fileID: 1289340315}
+  _angrymenu: {fileID: 1393363732}
+  _badmenu: {fileID: 763831314}
+  _disgustedmenu: {fileID: 508419606}
+  _fearfulmenu: {fileID: 107507276}
+  _happymenu: {fileID: 1401338224}
+  _sadmenu: {fileID: 909031200}
+  _surprisedmenu: {fileID: 1132403165}
   _player: {fileID: 1701297291}
   kleur: []
   kleurCount: 0
@@ -8519,12 +8519,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mainmenu: {fileID: 1289340315}
   _angrymenu: {fileID: 1393363732}
-  _badmenu: {fileID: 0}
-  _disgustedmenu: {fileID: 0}
-  _fearfulmenu: {fileID: 0}
-  _happymenu: {fileID: 0}
-  _sadmenu: {fileID: 0}
-  _surprisedmenu: {fileID: 0}
+  _badmenu: {fileID: 763831314}
+  _disgustedmenu: {fileID: 508419606}
+  _fearfulmenu: {fileID: 107507276}
+  _happymenu: {fileID: 1401338224}
+  _sadmenu: {fileID: 909031200}
+  _surprisedmenu: {fileID: 1132403165}
   _menu2: {fileID: 0}
 --- !u!1 &1296641790
 GameObject:
